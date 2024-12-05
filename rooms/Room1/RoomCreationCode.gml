@@ -8,7 +8,7 @@
 
 
 // Room Creation Code
-
+// This is where I can define all the toggle buttons.
 var toggles = [
 	{
 		instance_name: "fanSwitch",
