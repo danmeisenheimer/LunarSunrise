@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fanToggleCallback",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fanToggleCallback",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

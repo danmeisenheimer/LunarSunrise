@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"findToggleByName",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"findToggleByName",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
