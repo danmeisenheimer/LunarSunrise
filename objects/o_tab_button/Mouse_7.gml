@@ -5,4 +5,4 @@ else {
 	vPressed=false;
 }
 
-callback(vState);
+change_selected_page(vPageIndex);

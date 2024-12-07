@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"calculateDayUsage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"calculateDayUsage",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

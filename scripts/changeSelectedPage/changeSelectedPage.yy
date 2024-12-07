@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"fanToggleCallback",
+  "%Name":"changeSelectedPage",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"fanToggleCallback",
+  "name":"changeSelectedPage",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

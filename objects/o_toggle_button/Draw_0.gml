@@ -4,9 +4,7 @@
 
 draw_self();
 
-show_debug_message(string_concat("!!!!!!!!!!! x is: ", self.x));
-show_debug_message(string_concat("!!!!!!!!!!! y is: ", self.y));
-show_debug_message(string_concat("!!!!!!!!!!! font size is: ", font_get_size(0)));
+
 draw_set_font(fontArial);	
 draw_set_color(c_white);
 //draw_set_halign(100);

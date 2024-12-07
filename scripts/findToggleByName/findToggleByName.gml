@@ -6,15 +6,13 @@ function scr_find_toggle_by_name(name) {
     
     // Loop through all instances of obj_toggle
     while (true) {
-        instanceID = instance_find(oToggleButton, i);  // Get the i-th instance of obj_toggle
+        instanceID = instance_find(o_toggle_button, i);  // Get the i-th instance of obj_toggle
         
         // If no more instances are found, break the loop
         if (instanceID == noone) {
             break;
         }
 		
-        show_debug_message("Checking instance: " + string(instanceID) + " with name: " + string(instanceID.instance_name));
-
         // Check if this instance has the desired custom instance_name
         if (instanceID.instance_name == name) {
             return instanceID;  // Return the instance if it's a match
