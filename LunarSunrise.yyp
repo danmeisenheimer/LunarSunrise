@@ -35,10 +35,12 @@
   "name":"LunarSunrise",
   "resources":[
     {"id":{"name":"fontArial","path":"fonts/fontArial/fontArial.yy",},},
+    {"id":{"name":"oBattery","path":"objects/oBattery/oBattery.yy",},},
     {"id":{"name":"oToggleButton","path":"objects/oToggleButton/oToggleButton.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"fanToggleCallback","path":"scripts/fanToggleCallback/fanToggleCallback.yy",},},
     {"id":{"name":"findToggleByName","path":"scripts/findToggleByName/findToggleByName.yy",},},
+    {"id":{"name":"Battery","path":"sprites/Battery/Battery.yy",},},
     {"id":{"name":"Toggle_Off_Default","path":"sprites/Toggle_Off_Default/Toggle_Off_Default.yy",},},
     {"id":{"name":"Toggle_Off_Disabled","path":"sprites/Toggle_Off_Disabled/Toggle_Off_Disabled.yy",},},
     {"id":{"name":"Toggle_Off_Hover","path":"sprites/Toggle_Off_Hover/Toggle_Off_Hover.yy",},},

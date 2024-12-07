@@ -9,6 +9,9 @@
 
 // Room Creation Code
 // This is where I can define all the toggle buttons.
+global.default_colour = c_white;
+global.battery_percent = 1;
+
 var toggles = [
 	{
 		instance_name: "fanSwitch",
