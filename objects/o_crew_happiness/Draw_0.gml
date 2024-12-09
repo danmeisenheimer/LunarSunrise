@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_self();
 
-if (global.battery_level > 0) {
+if (global.crew_happiness > 0) {
 	// _level_margin determines how much background shows between the battery outline
 	// and the green level rectangle.
 	var _level_margin = 4;
@@ -13,7 +12,7 @@ if (global.battery_level > 0) {
 	var _bottom = self.bbox_top + 72 - _level_margin;
 	var _full_width = _max_pixel_x - _left;
 
-    var _battery_percent = global.battery_level / global.battery_capacity;
+    var _battery_percent = global.crew_happiness / global.max_crew_happiness;
 	
 	var _width = _battery_percent * _full_width;
 	var _right = _left + _width; 
@@ -22,3 +21,5 @@ if (global.battery_level > 0) {
 	draw_rectangle(_left, _top, _right, _bottom, false);
 	draw_set_color(global.default_colour);
 }
+
+draw_self();

@@ -5,4 +5,4 @@ else {
 	vPressed=false;
 }
 
-calculate_day_usage();
+handle_next_day();

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"handleNextDay",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"handleNextDay",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

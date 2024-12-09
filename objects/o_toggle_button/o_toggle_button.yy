@@ -38,7 +38,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Toggle_On_Default",
     "path":"sprites/Toggle_On_Default/Toggle_On_Default.yy",

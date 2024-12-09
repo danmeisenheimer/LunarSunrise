@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_right_panel",
+  "%Name":"o_is_night",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_right_panel",
+  "name":"o_is_night",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
