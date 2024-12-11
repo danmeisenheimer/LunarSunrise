@@ -10,17 +10,20 @@
 // Room Creation Code
 global.day_of_month = 0;
 
+// Make the player not automatically lose
+global.game_over = 0;
+
 // This is where I can define all the toggle buttons.
 global.default_colour = c_white;
 
 // Start the lunar cycle with 300kWh
-global.battery_level = 300;
+global.battery_level = 500;
 
 // Start with 20 crew happiness points
-global.crew_happiness = 20;
+global.crew_happiness = 30;
 
 // This is how many happiness points get added per day
-global.daily_crew_happiness = 5;
+global.daily_crew_happiness = 10;
 
 var _kwh_per_solar_panel_per_day = 12;
 var _number_of_solar_panels = 215;
@@ -63,7 +66,7 @@ global.toggles = [
 		happinessEffect: 1,
 	},
 	{
-		instance_name: "Thermostadt",
+		instance_name: "Thermostat",
 		label: "Thermostadt(100 KWH)",
 		state: true, // Need a way to store/retrieve these values?)		
 		energyUsage: 100,
@@ -119,4 +122,3 @@ for (i = 0; i < array_length(pages); ++i) {
 	instance.vWidth = 240;
 	instance.vHeight = 48;
 };
-	

@@ -4,4 +4,8 @@ function handle_next_day(){
 	calculate_day_usage();
 	calculate_day_happiness_usage();
 	global.day_of_month++;
+	if (global.day_of_month > 14){
+		var background = layer_background_get_id(layer_get_id("Background"));
+		layer_background_blend(background, #16085E)
+	}
 }

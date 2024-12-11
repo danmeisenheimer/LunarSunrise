@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function calculate_day_happiness_usage() {
-	var _base_happiness_usage = 28;
+	var _base_happiness_usage = 33 - global.daily_crew_happiness;
 	var _day_usage = _base_happiness_usage;
 
 	for (i = 0; i < array_length(global.toggles); ++i) {
